@@ -60,10 +60,11 @@
   </footer>
 
   <script>
+    // JavaScript to create the parallax effect
     window.addEventListener('scroll', function() {
       const scrolled = window.scrollY;
       const hero = document.getElementById('hero');
-      hero.style.backgroundPositionY = -(scrolled * 0.3) + 'px';
+      hero.style.backgroundPositionY = -(scrolled * 0.5) + 'px'; // Adjust the factor for desired effect
     });
   </script>
 </body>
