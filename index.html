@@ -45,7 +45,7 @@
 
     <section id="contact">
       <div class="container">
-        <h2>Contact Them</h2>
+        <h2>Contact Us</h2>
         <p>
           Insert your contact information and a contact form here.
         </p>
@@ -55,7 +55,16 @@
 
   <footer>
     <div class="container">
+      <p>&copy; 2023 Greenpeace. All rights reserved.</p>
     </div>
   </footer>
+
+  <script>
+    window.addEventListener('scroll', function() {
+      const scrolled = window.scrollY;
+      const hero = document.getElementById('hero');
+      hero.style.backgroundPositionY = -(scrolled * 0.3) + 'px';
+    });
+  </script>
 </body>
 </html>
