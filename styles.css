@@ -1,3 +1,4 @@
+/*
 body, h1, h2, h3, p, ul, li {
   margin: 0;
   padding: 0;
@@ -81,6 +82,7 @@ header {
   background-size: cover;
   background-position: center;
   height: 80px; /* Adjust the height of the green bar as needed */
+  /*
   display: flex;
   align-items: center;
   justify-content: center;
@@ -90,8 +92,8 @@ header {
   left: 0;
   right: 0;
   backdrop-filter: blur(5px); /* Add a blur effect to the background */
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Add a slight shadow */
-}
+  /*box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Add a slight shadow */
+/*}
 
 nav ul {
   list-style: none;
@@ -106,8 +108,97 @@ nav a {
   text-decoration: none;
   color: #fff;
   font-size: 16px; /* Adjust the font size as needed */
-}
+/*}
 
 nav a:hover {
   color: #f0f0f0; /* Adjust the hover color as needed */
+/*}
+*/
+
+body, h1, h2, h3, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+header {
+  background-image: url('https://images.unsplash.com/photo-1518531933037-91b2f5f229cc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bGVhdmVzJTIwYmFja2dyb3VuZHxlbnwwfHwwfHx8MA%3D%3D&w=1000&q=80');
+  background-size: cover;
+  background-position: center;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  backdrop-filter: blur(5px);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  transition: height 0.3s;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav li {
+  margin-right: 1rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+}
+
+nav a:hover {
+  color: #f0f0f0;
+}
+
+#hero {
+  background-image: url('https://images.unsplash.com/photo-1518531933037-91b2f5f229cc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bGVhdmVzJTIwYmFja2dyb3VuZHxlbnwwfHwwfHx8MA%3D%3D&w=1000&q=80');
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.hero-content h1 {
+  font-size: 48px;
+  font-family: 'ProfessionalFont', Arial, sans-serif;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.hero-content p {
+  font-size: 24px;
+  font-family: 'ProfessionalFont', Arial, sans-serif;
+  color: #fff;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+section {
+  margin-bottom: 2rem;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1rem 0;
 }
