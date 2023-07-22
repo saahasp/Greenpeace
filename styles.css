@@ -30,7 +30,7 @@ nav a {
 }
 
 #hero {
-  background-image: url('path/to/your/image.jpg');
+  background-image: url('https://images.unsplash.com/photo-1518531933037-91b2f5f229cc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bGVhdmVzJTIwYmFja2dyb3VuZHxlbnwwfHwwfHx8MA%3D%3D&w=1000&q=80');
   background-size: cover;
   background-position: center;
   height: 400px;
