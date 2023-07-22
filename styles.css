@@ -1,4 +1,3 @@
-/* Reset some default styles */
 body, h1, h2, h3, p, ul, li {
   margin: 0;
   padding: 0;
@@ -29,6 +28,12 @@ nav a {
   color: #fff;
 }
 
+@font-face {
+  font-family: 'ProfessionalFont';
+  src: url('path/to/your/font.woff2') format('woff2'),
+       url('path/to/your/font.woff') format('woff');
+}
+
 #hero {
   background-image: url('https://images.unsplash.com/photo-1518531933037-91b2f5f229cc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bGVhdmVzJTIwYmFja2dyb3VuZHxlbnwwfHwwfHx8MA%3D%3D&w=1000&q=80');
   background-size: cover;
@@ -37,8 +42,20 @@ nav a {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #fff;
   text-align: center;
+}
+
+.hero-content h1 {
+  font-size: 48px;
+  font-family: 'ProfessionalFont', Arial, sans-serif;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.hero-content p {
+  font-size: 24px;
+  font-family: 'ProfessionalFont', Arial, sans-serif;
+  color: #fff;
 }
 
 .container {
@@ -57,5 +74,3 @@ footer {
   text-align: center;
   padding: 1rem 0;
 }
-
-/* Customize other styles to fit your design */
