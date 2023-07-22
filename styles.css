@@ -4,7 +4,7 @@ body, h1, h2, h3, p, ul, li {
 }
 
 body {
-  font-family: Arial, sans-serif;
+  font-family: "Times New Roman", Times, serif;
   line-height: 1.6;
 }
 
@@ -26,12 +26,6 @@ nav li {
 nav a {
   text-decoration: none;
   color: #fff;
-}
-
-@font-face {
-  font-family: 'ProfessionalFont';
-  src: url('path/to/your/font.woff2') format('woff2'),
-       url('path/to/your/font.woff') format('woff');
 }
 
 #hero {
